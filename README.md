@@ -1,6 +1,6 @@
-# Brunch app
+# treelar.com
 
-This is a HTML5 application, built with [Brunch](http://brunch.io).
+This is a digital bussiness card website, built with [Brunch](http://brunch.io).
 
 ## Getting started
 * Install (if you don't have them):
