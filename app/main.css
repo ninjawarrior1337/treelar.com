@@ -1,0 +1,143 @@
+body{
+    overflow-x: hidden;
+}
+
+#mainlogo{
+    position: absolute;
+    left: 50%;
+    top: 1%;
+    transform: translate(-50%, -50%);
+    width: 256px;
+    height: 256px;
+    -moz-user-select: none
+}
+
+#name{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    color:white;
+    -moz-user-select: none;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Comfortaa'
+}
+
+#downArrow{
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+    opacity: 0;
+}
+
+#background {
+    position: absolute;
+    opacity: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 0%;
+    height: 0%;
+    background-image: linear-gradient(to right, #3399ff , #0000ff);
+}
+
+#info
+{
+    background-color: #2C2F33;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+#inset{
+    background-color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 150%;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    height: 90vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#card-logo{
+    border-radius: 90px;
+    margin-left: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 10px;
+    transform: translateX(-50%);
+    max-width: 15vh;
+}
+
+.menacing
+{
+    font-size: 2vw;
+    color: purple;
+    top: 4vh;
+}
+
+#menacingL
+{
+    position: absolute;
+    margin-left: 25%;
+    transform: translateX(-50%);
+}
+
+#menacingR
+{
+    position: absolute;
+    right: 0%;
+    transform: translateX(-20%);
+}
+
+.info-section
+{
+    border-radius: 10px;
+    /* position: absolute; */
+    width: 50%;
+    background-color: #2C2F33;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5px;
+    max-height: 33vh;
+}
+
+.info-section h5
+{
+    padding: 5px;
+}
+
+#info1
+{
+    /* left: 50%; */
+    transform: translateX(12%);
+    color: white;
+    text-align: center;
+}
+
+#info2
+{
+    transform: translateX(12%);
+    color: white;
+    text-align: center;
+    top: 45%;
+}
+
+#info3
+{
+    transform: translateX(12%);
+    color: white;
+    text-align: center;
+    top: 71.5%;
+}
+
+ul{
+    list-style-type: circle;
+    
+}
+
+li{
+    padding: 5px;
+}
