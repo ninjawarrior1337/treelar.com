@@ -1,0 +1,53 @@
+head
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    //<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    link(rel="stylesheet" href="../app.css")
+    meta(charset="utf-8")
+body.bg-dark.animePg
+    #currentlyWatching
+        h2.text-white="Currently Watching"
+        .container-fill
+            each show in currShows
+                each v,k in show
+                    if k === "title"
+                        - var title = v
+                    if k === "desc"
+                        - var descr = v
+                    if k === "imgUrl"
+                        - var url = v
+                    if url !== undefined && descr !== undefined && title !== undefined
+                        .card.currentlyWatchingCard.hoverable
+                            img.card-img-top(src=url)
+                            .card-body
+                                .card-title
+                                    h5=title
+                                .card-content=descr
+    #previouslyWatched
+        h2.text-white="Previously Watched"
+        .container-fill
+            each show in prevShows
+                each v,k in show
+                    if k === "title"
+                        - var title = v
+                    if k === "desc"
+                        - var descr = v
+                    if k === "imgUrl"
+                        - var url = v
+                    if url !== undefined && descr !== undefined && title !== undefined
+                        .card.previouslyWatchedCard.hoverable
+                            img.card-img-top(src=url)
+                            .card-body
+                                .card-title
+                                    h5=title
+                                .card-content=descr
+
+    .fixed-action-button.backbtn
+        a(href="../").btn-floating.btn-large.blue
+            i.large.material-icons="arrow_back"
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+script(src="../js/vendor.js")
+script(src="shows.js")

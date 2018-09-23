@@ -1,0 +1,57 @@
+.animePg
+{
+    text-align: center;
+}
+
+.animePg h2
+{
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+#currentlyWatching
+{
+    min-height: 33vh;
+    width: 100vw;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: scale-down;
+}
+
+.currentlyWatchingCard
+{
+    transition: all .3s;
+    /*display: block;*/
+    display: inline-flex;
+    width: 20vw;
+    margin: 20px;
+
+}
+
+.currentlyWatchingCard:hover
+{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+#previouslyWatched
+{
+    min-height: 66vh;
+    max-width: 100vw;
+}
+
+.previouslyWatchedCard
+{
+    display: inline-grid;
+    width: 15vw;
+    margin: 30px;
+}
+
+.backBtn
+{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}

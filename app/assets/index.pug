@@ -1,8 +1,14 @@
 html(lang="en")
+    <meta property="og:title" content="Tyler's Website" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="https://treelar.com" />
+    <meta property="og:description" content="Why not learn about some dude that makes bad (good) robots, epic games (Reverse Game), horribly inefficient code, can speak very english sounding japanese, and becomes a weeb because some filipino guy shows him a circle clicking game..." />
+    <meta property="og:image" content="https://treelar.com/img/logoassets/avatar8192x8192.png" />
     link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous")
     link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous")
     link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css")
-    link(rel="stylesheet", href="app.css")
+    link(rel="stylesheet", href="../app.css")
     link(href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet")
     meta(charset="utf-8")
     body
@@ -44,7 +50,8 @@ html(lang="en")
                         h5="Interests"
                         ul
                             li="Learning Languages (Other than programming)"
-                            li="Anime...Megumin best girl"
+                            li
+                                a(href="/anime")="Anime...Kotori best girl"
                             li="osu!"
                             li="Bypassing and Exploitation of Poor Design"
 

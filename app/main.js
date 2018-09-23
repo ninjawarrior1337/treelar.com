@@ -60,4 +60,4 @@ function playPgload(){
     pgload.play()
 }
 
-module.exports = playPgload
+module.exports = playPgload;
