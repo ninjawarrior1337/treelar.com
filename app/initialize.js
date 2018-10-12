@@ -5,6 +5,12 @@ document.addEventListener('DOMContentLoaded', function()
 
     $(function() {
         $('.info-section').matchHeight({byRow: false});
+        // $('.info-section-containment').matchHeight({byRow: false, target: $("#inset")})
     });
+
+    $(window).resize(function () { 
+        $.fn.matchHeight._update()
+        console.log("ehehheheh")
+     })
 
 });
