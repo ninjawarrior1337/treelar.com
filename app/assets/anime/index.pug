@@ -18,7 +18,7 @@ body.bg-dark.animePg
                         - var url = v
                     if url !== undefined && descr !== undefined && title !== undefined
                         .card.currentlyWatchingCard.hoverable
-                            img.card-img-top(src=url)
+                            img.card-img-top(src="https://images.weserv.nl/?url="+url)
                             .card-body
                                 .card-title
                                     h5=title
@@ -36,7 +36,7 @@ body.bg-dark.animePg
                         - var url = v
                     if url !== undefined && descr !== undefined && title !== undefined
                         .card.previouslyWatchedCard.hoverable
-                            img.card-img-top(src=url)
+                            img.card-img-top(src="https://images.weserv.nl/?url="+url)
                             .card-body
                                 .card-title
                                     h5=title

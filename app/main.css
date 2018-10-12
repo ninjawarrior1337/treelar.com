@@ -9,7 +9,7 @@ body{
     transform: translate(-50%, -50%);
     width: 256px;
     height: 256px;
-    -moz-user-select: none
+    user-select: none
 }
 
 #name{
@@ -18,7 +18,7 @@ body{
     top: 20%;
     transform: translate(-50%, -50%);
     color:white;
-    -moz-user-select: none;
+    user-select: none;
     text-align: center;
     font-size: 2.5rem;
     font-family: 'Comfortaa'

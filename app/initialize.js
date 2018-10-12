@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() 
 {
-    var $ = require('jquery');
-    require('jquery-match-height');
+    $ = require('jquery');
+    $.matchHeight = require('jquery-match-height');
 
     $(function() {
-        $('.currentlyWatchingCard').matchHeight();
+        $('.info-section').matchHeight({byRow: false});
     });
 
 });
