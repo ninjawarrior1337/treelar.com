@@ -29,6 +29,11 @@ module.exports = {
             locals: {
                 currShows: [
                     {
+                        title: "Love Live! School Idol Project (Reddit Rewatch)",
+                        imgUrl: "https://img1.ak.crunchyroll.com/i/spire3/deaf323b7654b1e9d6a63b9dfb1ae8cc1532553708_full.jpg",
+                        desc: "Kotori is best girl"
+                    },
+                    {
                         title: "Rascal Does Not Dream of Bunny Girl Senpai",
                         imgUrl: "https://img1.ak.crunchyroll.com/i/spire2/9f8894f961340ccdd9464a53b14ca3bd1538572740_full.jpg",
                         desc: "Quantum Mechanics, The Anime"
@@ -39,10 +44,15 @@ module.exports = {
                         desc: "ABC...easy as 123"
                     },
                     {
-                        title: "Steins;Gate 0",
-                        imgUrl: "https://img1.ak.crunchyroll.com/i/spire2/26cab01d95a04956bd5a1a2994d231ea1523422286_full.jpg",
-                        desc: "idk if im going to ever finish this"
+                        title: "Yuru Yuri",
+                        imgUrl: "https://img1.ak.crunchyroll.com/i/spire4/3780ca878ee756a73dfeba8b63b0aa761444072040_full.jpg",
+                        desc: "Akarin!!!"
                     }
+                    // {
+                    //     title: "Steins;Gate 0",
+                    //     imgUrl: "https://img1.ak.crunchyroll.com/i/spire2/26cab01d95a04956bd5a1a2994d231ea1523422286_full.jpg",
+                    //     desc: "idk if im going to ever finish this"
+                    // }
                 ],
                 prevShows: [
                     {
@@ -59,11 +69,6 @@ module.exports = {
                         title: "Love Live! Sunshine!!",
                         imgUrl: "https://img1.ak.crunchyroll.com/i/spire4/d6b86e43bfb2e1973388eef42ca820151507939806_full.jpg",
                         desc: "Hanamaru best girl \n (Mirai Zura) (未来ずら)"
-                    },
-                    {
-                        title: "Love Live! School Idol Project",
-                        imgUrl: "https://img1.ak.crunchyroll.com/i/spire3/deaf323b7654b1e9d6a63b9dfb1ae8cc1532553708_full.jpg",
-                        desc: "Kotori is best girl"
                     },
                     {
                         title: "Steins;Gate",
