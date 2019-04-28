@@ -2,6 +2,8 @@
 
 This is a digital bussiness card website, built with [Brunch](http://brunch.io).
 
+#WARNING: THIS HAS NOW BEEN ARCHIVED IN FAVOR OF TREELAR.XYZ
+
 ## Getting started
 * Install (if you don't have them):
     * [Node.js](http://nodejs.org): `brew install node` on OS X
