@@ -10,7 +10,7 @@
     "build": "brunch build --production"
   },
   "dependencies": {
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.0",
     "jquery-match-height": "^0.7.2",
     "pleeease-brunch": "^3.0.0"
   },
