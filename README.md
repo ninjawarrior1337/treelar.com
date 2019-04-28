@@ -2,7 +2,7 @@
 
 This is a digital bussiness card website, built with [Brunch](http://brunch.io).
 
-#WARNING: THIS HAS NOW BEEN ARCHIVED IN FAVOR OF TREELAR.XYZ
+# WARNING: THIS HAS NOW BEEN ARCHIVED IN FAVOR OF TREELAR.XYZ
 
 ## Getting started
 * Install (if you don't have them):
